@@ -1,13 +1,13 @@
 # Rocket Reviews
 
-> A MODX "Reviews" Extra - Leave a review/Get a Review per resource
+> A MODX "Reviews" Extra
 
- - Keep your review data, don't be a hostage to 3rd party vendors
+ - Keep your business review data, don't be a hostage to 3rd party vendors
  - Reviews are not public until approved
  - Adjust Template chunk via Snippet Properties
  - Gather emails for marketing
  - Reward Reviewers with discounts, coupons, etc
- - Snippet output is all reviews or by ID
+ - Snippet output is all reviews or by Resource ID
 
 ## Download the latest package and upload via Manager install
 
@@ -22,3 +22,9 @@
 ```
   [[Reviews? &id=`[[*id]]` &limit=`3`]]
 ```
+
+---
+
+![Create a Review](reviews-create.png)
+
+![Show Reviews](reviews-snippet.png)
