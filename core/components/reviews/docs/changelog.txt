@@ -1,0 +1,10 @@
+Changelog file for Rocket Reviews component.
+
+Rocket Reviews 1.1
+====================================
+- Added Status
+- Add to Query -> where Status = 1
+
+Rocket Reviews 1.0
+====================================
+- Initial commit
