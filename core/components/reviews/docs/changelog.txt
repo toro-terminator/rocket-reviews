@@ -1,5 +1,9 @@
 Changelog file for Rocket Reviews component.
 
+Rocket Reviews 1.2
+====================================
+- Added FormIt chunk and hook
+
 Rocket Reviews 1.1
 ====================================
 - Added Status

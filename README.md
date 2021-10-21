@@ -23,6 +23,14 @@
   [[Reviews? &id=`[[*id]]` &limit=`3`]]
 ```
 
+### Render a FormIt Form to save a reviews
+
+```
+  [[$rr-form]]
+```
+
+The form inputs include Bootstrap ready classes, and is run through a hook.
+
 ---
 
 ![Create a Review](reviews-create.png)

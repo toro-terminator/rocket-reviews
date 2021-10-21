@@ -10,7 +10,6 @@ function getSnippetContent($filename) {
 }
 $snippets = array();
 
-/* course snippets */
 $snippets[1]= $modx->newObject('modSnippet');
 $snippets[1]->fromArray(array(
     'id' => 1,
@@ -21,5 +20,14 @@ $snippets[1]->fromArray(array(
 $properties = include $sources['data'].'properties/properties.reviews.php';
 $snippets[1]->setProperties($properties);
 unset($properties);
+
+$snippets[2]= $modx->newObject('modSnippet');
+$snippets[2]->fromArray(array(
+    'id' => 2,
+    'name' => 'ReviewsSave',
+    'description' => 'Save Reviews via a FormIt Hook.',
+    'snippet' => getSnippetContent($sources['elements'].'snippets/snippet.reviewssave.php'),
+    'properties' => NULL
+),'',true,true);
 
 return $snippets;
