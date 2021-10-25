@@ -38,7 +38,7 @@ Reviews.grid.Reviews = function(config) {
           },{
               header: _('reviews.resource_id')
               ,dataIndex: 'resource_id'
-              ,sortable: false
+              ,sortable: true
               ,width: 50
               ,editor: { xtype: 'numberfield' }
           },{
