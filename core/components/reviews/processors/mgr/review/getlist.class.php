@@ -8,8 +8,8 @@
 class ReviewGetListProcessor extends modObjectGetListProcessor {
     public $classKey = 'Review';
     public $languageTopics = array('reviews:default');
-    public $defaultSortField = 'name';
-    public $defaultSortDirection = 'ASC';
+    public $defaultSortField = 'id';
+    public $defaultSortDirection = 'DESC';
     public $objectType = 'reviews.review';
 
     public function prepareQueryBeforeCount(xPDOQuery $c) {
